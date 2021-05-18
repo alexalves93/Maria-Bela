@@ -1,0 +1,138 @@
+body{   
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+
+/*NAVBAR*/
+
+a:hover{
+color: #fe0072;}
+
+.nav-link{
+    color: #333;
+    font-weight: 500;}
+
+@font-face{
+    font-family: 'fredoka';
+    src:url(./fonts/Fredoka.ttf);}
+
+.navbar-brand{
+    color: #fe0072;
+    font-size: 32px;
+    font-family: 'fredoka', Arial, Helvetica, sans-serif;}
+
+.button1{
+    background-color: #fe0072;
+    border-radius: 15px;   
+    height: 45px;
+    width: 150px;
+    color: white;
+    outline: none;
+    border: none;}
+
+.button1:hover{
+    background-color: white;
+    color: #fe0072;
+    transition: 0.3s;}
+
+.email{
+    outline: none;
+    border: none;
+    height: 35px;
+    width: 300px;}
+
+
+.textphoto{
+    font-size: 22px;
+    text-shadow: 1px 1px 2px #555;
+    margin-bottom: 0px;
+    font-weight: 500;}
+
+.titlephoto{
+    text-shadow: 2px 2px 2px #555;
+    font-size: 45px;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 20px;}
+
+/*ARTICLE*/
+
+article{
+    padding-top: 20px;
+    padding-bottom: 60px;}
+
+.articletitle{
+    color: #555;}
+
+/*PROCESS*/
+
+.artprocess{
+    width: 1000px;
+    margin: auto;}
+
+.galeria{
+    color: #555;
+    padding: 0 100px 50px 100px;
+    overflow: auto;}
+
+h2{
+    color: #555;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 600;}
+
+.galeria-card{
+    width: 33%;
+    float: left;
+    text-align: center;
+    margin-top: 18px;}
+
+.gallery-title{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 15px;}
+
+.gallery-text{
+    margin: 0%;
+}
+
+/*FOOTER*/
+
+.foot{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    margin-bottom: 0%;
+    padding: 10px;}
+
+.foottxt{
+    margin-top: 10px;}
+
+/*Order Button*/ 
+
+.bs-dresses input{
+    position:absolute;
+    height: 45px;
+    width: 110px;
+    background-color: #fe0072;
+    color: white;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    text-align: center;
+    top: 40%;
+    left: 33%;
+    opacity: 0;}
+
+.bs-dresses .card:hover input{
+   opacity: 1; 
+   transition: 1s;}
+
+.bs-dresses input:hover{
+    background-color: white;
+    color: #fe0072;
+    transition: 0.5s;}
+
+
